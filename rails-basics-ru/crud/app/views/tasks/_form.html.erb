@@ -1,0 +1,35 @@
+<%= form_with model: task do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %><br>
+  </div>
+
+  <div>
+    <%= form.label :description %><br>
+    <%= form.text_field :description %><br>
+  </div>
+
+  <div>
+    <%= form.label :creator %><br>
+    <%= form.text_field :creator %><br>
+  </div>
+
+  <div>
+    <%= form.label :completed %><br>
+    <%= form.text_field :completed %><br>
+  </div>
+
+  <div>
+    <%= form.label :perfomer %><br>
+    <%= form.text_field :perfomer %><br>
+  </div>
+
+  <div>
+    <%= form.label :status %><br>
+    <%= form.text_field :status %><br>
+  </div>
+
+  <div>
+    <%= form.submit %><br>
+  </div>
+<% end %>
