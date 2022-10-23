@@ -38,7 +38,7 @@ class StackTest < Minitest::Test
 
     assert { stack.to_a == [] }
     assert { stack.empty? == true }
-  end
+  end  
   # END
 end
 
