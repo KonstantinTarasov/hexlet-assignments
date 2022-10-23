@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# rubocop:disable Style/For
 # BEGIN
 def build_query_string(params)
   new_params = []
@@ -9,3 +10,4 @@ def build_query_string(params)
   new_params.join('&')
 end
 # END
+# rubocop:enable Style/For

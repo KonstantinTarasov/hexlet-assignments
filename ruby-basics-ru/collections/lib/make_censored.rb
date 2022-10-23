@@ -2,8 +2,8 @@
 
 # rubocop:disable Style/For
 
-# BEGIN
 def make_censored(sentence, stop_words)
+  # BEGIN
   new_sentence = sentence.split(' ')
   final_sentence = []
   for word in new_sentence do
@@ -17,7 +17,7 @@ def make_censored(sentence, stop_words)
     final_sentence << word if count == 0
   end
   final_sentence.join(' ')
+  # END
 end
-# END
 
 # rubocop:enable Style/For
