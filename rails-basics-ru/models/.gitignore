@@ -1,14 +1,8 @@
-# WARNING: Paths must not include the name of the "lessons" directory.
-# Outside, this directory is called "exercises".
-
-/*/*/*.lock
-**/vendor/
-/*/*/package-lock.json
-/*/*/Gemfile.lock
+*.lock
+vendor/
+package-lock.json
 Gemfile.lock
-**/node_modules/
-**/tmp/
-!**/.keep
-**/*.log
-
-.DS_Store
+node_modules/
+tmp/
+!.keep
+*.log
