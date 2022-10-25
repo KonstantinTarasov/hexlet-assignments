@@ -4,7 +4,7 @@
 
 ## Ссылки
 
-* [Testing Rails Applications](https://guides.rubyonrails.org/testing.html) - инструкация Rails по тестированию приложений
+* [Testing Rails Applications](https://guides.rubyonrails.org/testing.html) - инструкция Rails по тестированию приложений
 * [Чек-лист хороших инженерных практик в компаниях](https://guides.hexlet.io/ru/check-list-of-engineering-practices/)
 * [Начинаем писать тесты (правильно)](https://ru.hexlet.io/blog/posts/how-to-test-code)
 
