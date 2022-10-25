@@ -10,8 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_09_19_215935) do
-
+ActiveRecord::Schema[7.0].define(version: 2022_10_25_130152) do
   create_table "tasks", force: :cascade do |t|
     t.string "name"
     t.text "description"
@@ -19,8 +18,8 @@ ActiveRecord::Schema.define(version: 2022_09_19_215935) do
     t.string "creator"
     t.string "perfomer"
     t.boolean "completed", default: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
